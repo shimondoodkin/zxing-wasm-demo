@@ -136,10 +136,6 @@ const useZXingWasmDemoStore = create<ZXingWasmDemoState>()(
   ),
 );
 
-useZXingWasmDemoStore.setState({
-  ...defaultZXingWasmDemoState,
-});
-
 const FlexGrid = styled(Grid)(() => ({
   display: "flex",
 }));
